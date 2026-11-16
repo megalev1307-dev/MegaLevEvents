@@ -1,0 +1,17 @@
+name: MegaLevEvents
+version: 0.1.0
+main: fun.megalev.events.MegaLevEvents
+api-version: '26.2'
+softdepend: [Vault]
+commands:
+  event:
+    description: Управление ивентами
+    permission: megalevevents.admin
+  parkur:
+    description: Телепортация на мирный паркур
+    permission: megalevevents.parkur
+permissions:
+  megalevevents.admin:
+    default: op
+  megalevevents.parkur:
+    default: true

@@ -1,0 +1,9 @@
+1. Open your MegaLevEvents GitHub repository.
+2. Click Add file -> Upload files.
+3. Extract this ZIP on your PC. Open the MegaLevEvents folder.
+4. Upload its CONTENTS to the repository root, including the hidden .github folder.
+5. Commit changes.
+6. Go to Actions -> Build MegaLevEvents -> Run workflow (if no automatic run).
+7. Open completed run -> Artifacts -> MegaLevEvents-Paper26.2.
+8. Extract downloaded artifact to obtain MegaLevEvents.jar.
+NOTE: This is an untested experimental plugin. Test on a separate server first.

@@ -1,0 +1,45 @@
+world: anarchy
+npc:
+  enabled: true
+  x: 0
+  y: 70
+  z: 0
+  hits-per-drop: 100
+  drops: 5
+parkour:
+  start: {x: 0, y: 90, z: 0}
+  finish: {x: 20, y: 105, z: 20}
+  finish-radius: 2.0
+  reward-cooldown-hours: 24
+  money-reward: 1000000
+  shulker-expire-hours: 24
+vant:
+  duration-seconds: 900
+  territory-radius: 20
+  key-chest-radius: 10
+  outside-seconds: 120
+  drops-per-wave: 3
+  wave-seconds: 5
+  invisibility-check-seconds: 20
+  glowing-seconds: 5
+  total-waves: 24
+fever:
+  duration-seconds: 900
+  death-signal-seconds: 15
+  announcement-radius: 400
+casino:
+  duration-seconds: 900
+  pvp-safe-radius: 20
+  spin-price: 1000000
+  payouts:
+    lose: 50
+    refund: 20
+    two-million: 15
+    five-million: 10
+    ten-million: 5
+random-location:
+  min-radius: 300
+  max-radius: 2500
+  attempts: 40
+loot:
+  materials: [ENCHANTED_GOLDEN_APPLE, NETHERITE_SWORD, NETHERITE_CHESTPLATE, TOTEM_OF_UNDYING, END_CRYSTAL, EXPERIENCE_BOTTLE, NETHERITE_AXE]

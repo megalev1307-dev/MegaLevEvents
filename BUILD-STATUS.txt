@@ -1,0 +1,6 @@
+MegaLevEvents 0.1.1 experimental sources, Paper 26.2 build 134.
+Paper API jar was extracted from the exact server jar supplied by the user.
+Java 25 (class version 69) is REQUIRED for compilation. This environment only has Java 21.
+The project has NOT been compiled or run on a Paper server. Do not install on production.
+Use build-offline-windows.bat on Windows with JDK 25, or run Gradle with JDK 25 and access to the Paper repository.
+Gameplay and inventory logic requires additional testing and hardening before production.
