@@ -1,0 +1,15 @@
+
+name: MegaLevEvents
+version: 1.0.0
+main: fun.megalev.events.MegaLevEvents
+api-version: '1.21'
+description: Custom events for MegaLevSMP
+commands:
+  event:
+    description: Manage MegaLevEvents
+    permission: megalevevents.admin
+  parkur:
+    description: Teleport to parkour
+permissions:
+  megalevevents.admin:
+    default: op
